@@ -9,8 +9,10 @@ Building a Dimensional Data Warehouse using dbt and BigQuery
 1. Create a new Python environment for the dbt and its big query adapter:<br> 
     `pyenv virtualenv dbt-bigquery`
 
-2. To install `dbt-core` and `dbt-bigquery`:<br> 
-`pip install \
-  dbt-core \
-  dbt-bigquery \`
+2. To install `dbt-core` and `dbt-bigquery`:<br>
+
+    `pip install \
+        dbt-core \
+        dbt-bigquery \
+    `
 
