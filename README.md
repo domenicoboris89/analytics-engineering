@@ -48,5 +48,34 @@ This repository contains the Use Case of a Dimensional DWH build using `dbt` and
     - add your GCP __project_id__
 
 
+4. execute `dbt debug` and configure your `profiles.yml` 
+
+~/.dbt/profiles.yml
+
+    my-bigquery-db:
+    target: dev
+    outputs:
+        dev:
+        type: bigquery
+        method: oauth
+        project: [GCP project id]
+        dataset: [the name of your dbt dataset] # You can also use "schema" here
+        threads: [1 or more]
+        <optional_config>: <value>
+
+
+5. Setup the gcp oauth using gcloud: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup <br>
+
+gcloud authentication command (need to export gcloud PATH variable):
+
+    gcloud auth application-default login \
+    --scopes=https://www.googleapis.com/auth/bigquery,\
+    https://www.googleapis.com/auth/drive.readonly,\
+    https://www.googleapis.com/auth/iam.test
+
+
+6. If you work with multiple warehouses you need to tell dbt which `profiles.yml` to use. There are several ways to do that, for more info: https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles <br>
+If you are already using environment variables (e.g. your working profiles dir), one possibility is to use the the `--profiles-dir --profiles-dir path/to/directory` flag every time you execute a dbt command.<br>
+
 
 
