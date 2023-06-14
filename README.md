@@ -1,6 +1,6 @@
 # analytics-engineering 
 Building a Dimensional Data Warehouse using dbt and BigQuery.<br>
-![Alt text]()
+![Alt text](/png/dbt-Core-Bigquery-Blog-Image.png)
 
 
 ## Navigation
