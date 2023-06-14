@@ -1,0 +1,25 @@
+
+
+============================== 17:00:56.037970 | c64d5fbf-a89b-4e0f-8f70-9d9f402579b7 ==============================
+[0m17:00:56.037970 [info ] [MainThread]: Running with dbt=1.5.1
+[0m17:00:56.046025 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/domenico-boris.salvati/HTG/data-warehouse/transform/config/', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'False'}
+[0m17:04:25.999401 [debug] [MainThread]: Starter project path: /Users/domenico-boris.salvati/.pyenv/versions/3.8.7/envs/dbt-bigquery/lib/python3.8/site-packages/dbt/include/starter_project
+[0m18:24:03.333778 [info ] [MainThread]: Profile NT_DWH written to /Users/domenico-boris.salvati/HTG/data-warehouse/transform/config/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:24:03.334518 [info ] [MainThread]: 
+Your new dbt project "NT_DWH" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:24:03.337462 [debug] [MainThread]: Command `dbt init` succeeded at 18:24:03.335418 after 4987.46 seconds
+[0m18:24:03.338181 [debug] [MainThread]: Flushing usage events
