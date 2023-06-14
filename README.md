@@ -1,8 +1,14 @@
-# analytics-engineering
+# analytics-engineering 
 Building a Dimensional Data Warehouse using dbt and BigQuery.<br>
 
-This repository contains a step-by-step build up of a `dbt-bigquery` project.<br> 
-The folder __DL_NORTHWIND__ contains the dataset to model on dbt, while the other folder is the name of the dbt project.
+
+## Navigation
+
+
+This repository contains the Use Case of a Dimensional DWH build using `dbt` and `bigquery`, it contains two folders: <br> 
+1. The folder __DL_NORTHWIND__ contains the dataset to model on dbt
+2. the other folder is the name assigned to the dbt project, in this case __NT_DWH__
+
 
 ## dbt installation
 
@@ -21,7 +27,8 @@ The folder __DL_NORTHWIND__ contains the dataset to model on dbt, while the othe
 
 2. Install __dbt-core__ and __dbt-bigquery__:<br>
 
-    `pip install \ dbt-core \ dbt-bigquery \`<br>
+    `pip install dbt-core`<br>
+    `pip install dbt-bigquery`
     
     and check the version:
 
@@ -38,6 +45,8 @@ The folder __DL_NORTHWIND__ contains the dataset to model on dbt, while the othe
 
     - choose __oauth__ as authenthication method
 
-    - add your GCP project_id
+    - add your GCP __project_id__
+
+
 
 
