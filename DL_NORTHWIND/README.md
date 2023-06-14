@@ -5,8 +5,8 @@ https://www.geeksengine.com/article/northwind.html<br>
 
 This folder contains two SQL script to `CREATE` and Populate a BigQuery dataset.<br>
 
-    1. `northwind_oltp_bq_schema` creates the schema of the Database
-    2. `northwind_oltp_bq_data` a series of `INSERT` statements, simulating an OLTP system, to populate the tables
+1. `northwind_oltp_bq_schema` creates the schema of the Database
+2. `northwind_oltp_bq_data` a series of `INSERT` statements, simulating an OLTP system, to populate the tables
 
 ## Details about the UC
 
