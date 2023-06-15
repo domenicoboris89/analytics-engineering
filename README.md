@@ -68,9 +68,7 @@ This repository contains the Use Case of a Dimensional DWH build using `dbt` and
                     <optional_config>: <value>
 
 
-6. Setup the gcp oauth using gcloud: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup <br>
-
-__gcloud authentication command__:
+6. Setup the gcp oauth using gcloud: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup:
 
 
         gcloud auth application-default login \
