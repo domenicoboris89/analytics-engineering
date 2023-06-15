@@ -68,7 +68,7 @@ This repository contains the Use Case of a Dimensional DWH build using `dbt` and
                     <optional_config>: <value>
 
 
-Setup the gcp oauth using gcloud: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup <br>
+6. Setup the gcp oauth using gcloud: https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup#local-oauth-gcloud-setup <br>
 
 __gcloud authentication command__:
 
@@ -79,7 +79,7 @@ __gcloud authentication command__:
         https://www.googleapis.com/auth/iam.test
 
 
-6. If you work with multiple warehouses you need to tell dbt which `profiles.yml` to use. There are several ways to do that, for more info check the official documentation: https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles.<br>
+7. If you work with multiple warehouses you need to tell dbt which `profiles.yml` to use. There are several ways to do that, for more info check the official documentation: https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles.<br>
 One possibility is to use the the `--profiles-dir` flag every time you execute a dbt command, followed by 'path/to/directory'.<br>
 
 
