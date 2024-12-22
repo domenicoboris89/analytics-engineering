@@ -1,6 +1,7 @@
-# How to implement a Dimensional Data Model using dbt and BigQuery
+# How to configure a dbt project and connect it to BigQuery
 
-Building a Dimensional Data Warehouse using dbt and BigQuery.<br>
+This guild describe all the steps to configure a dbt project and connecting it to Google BigQuery.<br>
+
 ![Alt text](/png/dbt-Core-Bigquery-Blog-Image.png)
 
 
